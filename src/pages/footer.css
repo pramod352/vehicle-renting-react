@@ -1,0 +1,124 @@
+.footer {
+    background: rgb(29, 31, 31);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 40px;
+    
+  }
+  
+  .footer-container {
+    color: rgb(235, 227, 227);
+    text-align: center;
+  } 
+  
+  .top-footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+  
+  .bottom-footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  
+  .Copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4rem;
+  }
+  
+  .Privacy-policy {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Aboutus .link{
+    font-size:clamp(1rem, 8vw, 2rem);
+    font-weight:400;
+    text-transform:uppercase;
+    text-shadow:0px 0px 20px rgba(0,0,0,0.4);
+    text-align:left;
+    margin-bottom:0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+.Aboutus p{
+    font-size:1rem;
+    font-weight:1rem;
+    text-align: left;
+    align-items:center;
+    text-shadow:0px 0px 20px rgba(0,0,0,0.4);
+    margin-bottom:0.8rem;
+}
+
+.Contact p{
+    font-size:1rem;
+    font-weight:1rem;
+    text-align: left;
+    align-items: center;
+    text-shadow:0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.Contact p span{
+ margin-top: 2rem;
+ 
+}
+.Contact h1{
+    font-size:clamp(1rem, 8vw, 2rem);
+    font-weight:400;
+    text-transform:uppercase;
+    text-shadow:0px 0px 20px rgba(0,0,0,0.4);
+    text-align:left;
+    margin-bottom:0.8rem;
+}
+
+.social{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(-50%);
+}
+.social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #CBCBCB;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+.social a:hover{
+	background-color:#02c7f8;
+	transition:all ease 0.5s;
+}
+.social i{
+	font-size:20px;
+	color:#2B2B2B;
+}
+
+  @media (max-width: 810px) {
+    .top-footer-container {
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+    .bottom-footer-container {
+      grid-template-columns: 1fr;
+    }
+    .Privacy-policy {
+      justify-content: center;
+    }
+    .Copyright {
+      margin: auto;
+    }
+  }
