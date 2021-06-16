@@ -17,6 +17,7 @@ function App() {
   const [isOpen,setIsOpen]=useState(false);
 
 
+  // Login backend using firebase
 
   const [user,setUser]=useState ('');
   const [email,setEmail]=useState ('');
@@ -94,15 +95,12 @@ function App() {
 
     },[]);
 
+// ENd of login backend....
 
 
   const toggle = () =>{
     setIsOpen(!isOpen)
   }
-
-
-
-
 
     return ( 
        <div className="App">
