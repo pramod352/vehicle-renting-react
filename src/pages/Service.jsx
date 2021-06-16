@@ -47,7 +47,7 @@ const Service = () => {
                 </div>
             </div>
             <div className="call">
-                <h1>WE ARE READY TO SERVE AT ANY TIME  !</h1>
+                <h1>WE ARE READY TO SERVE AT ANY TIME !!!</h1>
                 <div className="flex-row calls">
                     <img src="assets/images/phone-2.jpg" alt="" />
                     <img src="assets/images/icon_2.png" alt="" />
