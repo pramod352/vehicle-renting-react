@@ -11,20 +11,20 @@ const Service = () => {
                     <div className="flex-row service-icons">
                         <div className="flex flex-1">
                             <img src="assets/images/service_1.png" alt="" />
-                            <p><span className="service-icons-head">Test Vehicle And Rent  </span><br></br>
-                            Lorem ipsum is placeholder text commonly used in the graphic, graphic, lorem text is placeholder.</p>
+                            <p><span className="service-icons-head">Free Trail </span><br></br>
+                              Customer can trail the vehicle first and the rent based on their experience. </p>
                         </div>
                         <div className="flex flex-1">
                         <img src="assets/images/service_3.png" alt="" />
                             <p><span className="service-icons-head">Satisfied Customer</span><br></br>
-                            Lorem ipsum is placeholder text commonly used in the graphic, graphic, lorem text is placeholder.</p>
+                            Our main aim is to satisfy the customer by providing services at a relevant prices and quality.</p>
                         </div>
                     </div>
                     <div className="flex-row service-icons">
                         <div className="flex flex-1">
                             <img src="assets/images/service_2.png" alt="" />
                             <p><span className="service-icons-head">Discount For Regular Customer</span><br></br>
-                            Lorem ipsum is placeholder text commonly used in the graphic, graphic, lorem text is placeholder.</p>
+                            We also have made the provision of discount to the regular customer based on their renting packages and privious services.</p>
                         </div>
                     </div>
                 </div>  
@@ -37,12 +37,13 @@ const Service = () => {
                         <div className="flex flex-1 testimon">
                             <img src="/images/team1.png" alt="" />
                             <p><span className="service-icons-head">Bonuses For Renting</span><br></br>
-                            Lorem ipsum is placeholder text commonly used in the graphic, graphic, lorem text is placeholder.</p>
+                            The service of bonuses is very much exciting as I am also hooked into this system by 
+                            knowing this.</p>
                         </div>
                         <div className="flex flex-1 testimon">
                         <img src="/images/team2.png" alt="" />
                             <p><span className="service-icons-head">Fast Services</span><br></br>
-                            Lorem ipsum is placeholder text commonly used in the graphic, graphic, lorem text is placeholder.</p>
+                            The system provides the fast services which is very crutial part of this website.</p>
                         </div>
                 </div>
             </div>

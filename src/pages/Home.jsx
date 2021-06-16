@@ -38,7 +38,7 @@ const Home = () => {
             </div>
             <div className="card">
             <div className="overlay">
-                    <span>CAR</span>
+                    <span>BIKE</span>
                     <Link to="./User_booking/User_booking"> Rent </Link>
                 </div>
                 <img src="../images/4.jpg" alt="" />
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div className="card">
               <div className="overlay">
-                    <span>BIKE</span>
+                    <span>CAR</span>
                     <Link to="./User_booking/User_booking"> Rent </Link>
                 </div>
                 <img src="../images/3.jpg" alt="" />
@@ -62,7 +62,7 @@ const Home = () => {
                     <span>BOLERO</span>
                     <Link to="./User_booking/User_booking"> Rent </Link>
                 </div>
-                <img src="./images/vehicle1.jpg" alt="" />
+                <img src="../images/vehicle1.jpg" alt="" />
             </div>
         </div>
     </div>

@@ -35,23 +35,30 @@ class About extends Component{
         <img src="./images/team1.png" alt="Team_image"/>
       </div>
       <h3>Anil Kafle</h3>
-      <p className="role">UI developer</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+      <p className="role">website developer</p>
+      <p>Kafle joined the Web Design team in the fall of 2018 as our Customer Service Representative.
+      As Kafle’s skills and knowledge grew, he became a valuable asset to the development team and is now a 
+      website developer adept at JavaScript animations, custom search applications.
+      </p>
     </div>
     <div className="team_member">
       <div className="team_img">
         <img src="./images/team2.png" alt="Team_image"/>
       </div>
       <h3>Puspa Shrestha</h3>
-      <p className="role">Tester</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+      <p className="role">owner and ceo</p>
+      <p>Shrestha’s love for website development started in 2017, when at the age of 17 she learned HTML and 
+        secured her first dot-com. Puspa spent her time working on freelance website projects,
+         and in college she held a part-time position as webmaster for the college radio station.</p></div>
     <div className="team_member">
       <div className="team_img">
         <img src="./images/team3.png" alt="Team_image"/>
       </div>
       <h3>Pramod Sapkota</h3>
       <p className="role">Support Lead</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+      <p>A Software Engineering Support Lead is responsible for their team’s execution, the quality they produce, 
+        the speed and cadence at which they produce, but most importantly, they are responsible for the team’s 
+        culture, environment, and overall growth of the people on it.</p>
     </div>
   </div>
 </div>	

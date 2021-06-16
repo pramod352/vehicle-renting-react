@@ -1,7 +1,7 @@
 import ImageOne from '../images/2.jpg'
 import ImageTwo from '../images/1.jpg'
 import ImageThree from '../images/vehicle3.jpg'
-import ImageFour from '../images/1.jpg'
+import ImageFour from '../images/222.jpg'
 export const SliderData=[
     {
         title:'RGSX SUZUKI',
@@ -28,7 +28,7 @@ export const SliderData=[
         alt: 'Car'
     },
     {
-        title:'ROYAL ENFIELD',
+        title:'CHEVROLET',
         price:'$50 per month',
         path:'/',
         label:'View Car',

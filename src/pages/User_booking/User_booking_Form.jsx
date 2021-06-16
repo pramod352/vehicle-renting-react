@@ -12,7 +12,6 @@ const BookingForm = (props) => {
         from:'',
         to:'',
         cars:'',
-        price:''
     }
 
     var [values, setValues] = useState(initialFieldValues)
