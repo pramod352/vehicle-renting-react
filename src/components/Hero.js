@@ -51,9 +51,9 @@ justify-content:center;
         0deg,
         rgba(0,0,0,0.2) 0%, 
         rgba(0,0,0,0.2) 50%,
-        rgba(0,0,0,0.6) 100%);
-}
+        rgba(0,0,0,0.6) 100%);}
 `;
+
 const HeroImage =styled.img `
 position:absolute;
 width:100vw;
@@ -62,6 +62,10 @@ height:100vh;
 left:0;
 object-fit:cover;
 
+@media screen and (max-width:760px){
+     width:100%;
+     height:100%;
+}
 
 `;
 const HeroContent =styled.div `

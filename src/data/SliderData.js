@@ -1,16 +1,17 @@
-import ImageOne from '../images/2.jpg'
+import ImageOne from '../images/222.jpg'
 import ImageTwo from '../images/1.jpg'
 import ImageThree from '../images/vehicle3.jpg'
-import ImageFour from '../images/222.jpg'
+import ImageFour from '../images/2.jpg'
 export const SliderData=[
     {
-        title:'RGSX SUZUKI',
-        price:'$100 per month',
+
+        title:'CHEVROLET',
+        price:'$50 per month',
         path:'/',
-        label:'View Bike',
+        label:'View Car',
         image: ImageOne ,
-        alt: 'Car'
-    },
+        alt:'Car'
+  },
     {
         title:'HIGH-END CONVERTIBLES',
         price:'$150 per month',
@@ -28,10 +29,10 @@ export const SliderData=[
         alt: 'Car'
     },
     {
-        title:'CHEVROLET',
-        price:'$50 per month',
+        title:'RGSX SUZUKI',
+        price:'$100 per month',
         path:'/',
-        label:'View Car',
+        label:'View Bike',
         image: ImageFour ,
         alt: 'Bike'
     }

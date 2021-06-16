@@ -7,8 +7,7 @@ class About extends Component{
     return (
         <div>
          <div className="bottom-header-sub">
-                 <div className="contd"></div>
-                     <div className="sub-page">
+                        <div className="sub-page">
                          <h1>About Us </h1>
                            </div>
                  

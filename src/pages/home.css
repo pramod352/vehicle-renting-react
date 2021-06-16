@@ -123,3 +123,49 @@ section.work .card-wrapper .card img{
     text-align: center;
 }
 
+@media (max-width:991px){
+     section.work{
+         padding: 50px;
+     }
+
+
+    section.work .card-wrapper{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    section.work .card-wrapper .card{
+       width: 100%;
+       height: 100%;
+     
+}
+
+/* section.work .card-wrapper .card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61,207,211,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#f2f2f2;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+section.work .card-wrapper .card:hover .overlay{
+    opacity: 1;
+}
+
+section.work .card-wrapper .card .overlay a{
+    color: #070606;
+    text-decoration: none;
+} */
+
+}
