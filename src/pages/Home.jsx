@@ -24,7 +24,7 @@ const Home = () => {
             <div className="card">
             <div className="overlay">
                     <span>CAR</span>
-                    <Link to="./User_booking/User_booking"> Rent </Link>
+                    <Link to="/"> Rent </Link>
                     {/* <a href='./User_booking/User_booking.jsx'>RENT</a> */}
                 </div>
                 <img src="../images/1.jpg" alt="" />
@@ -32,35 +32,35 @@ const Home = () => {
             <div className="card">
                 <div className="overlay">
                     <span>BIKE</span>
-                    <Link to="./User_booking/User_booking"> Rent </Link>
+                    <Link to="/"> Rent </Link>
                 </div>
                 <img src="../images/2.jpg" alt="" />
             </div>
             <div className="card">
             <div className="overlay">
                     <span>BIKE</span>
-                    <Link to="./User_booking/User_booking"> Rent </Link>
+                    <Link to="/"> Rent </Link>
                 </div>
                 <img src="../images/4.jpg" alt="" />
             </div>
             <div className="card">
             <div className="overlay">
                     <span>CAR</span>
-                    <Link to="./User_booking/User_booking"> Rent </Link>
+                    <Link to="/"> Rent </Link>
                 </div>
                 <img src="../images/vehicle3.jpg" alt="" />
             </div>
             <div className="card">
               <div className="overlay">
                     <span>CAR</span>
-                    <Link to="./User_booking/User_booking"> Rent </Link>
+                    <Link to="/"> Rent </Link>
                 </div>
                 <img src="../images/3.jpg" alt="" />
             </div>
             <div className="card">
             <div className="overlay">
                     <span>BOLERO</span>
-                    <Link to="./User_booking/User_booking"> Rent </Link>
+                    <Link to="/"> Rent </Link>
                 </div>
                 <img src="../images/vehicle1.jpg" alt="" />
             </div>
